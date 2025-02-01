@@ -27,3 +27,12 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+##### Answer
+
+When n = 0, the array will simply just be [0]. For n > 0, the array will contain 
+0 followed by the correct Fibonacci numbers through the index of n-1. 
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. 
+All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that 
+if plagiarism is suspected, charges may be filed against me without prior notice."
