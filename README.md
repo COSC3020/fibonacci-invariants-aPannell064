@@ -30,8 +30,11 @@ your answer to this markdown file.
 
 ##### Answer
 
-When n = 0, the array will simply just be [0]. For n > 0, the array will contain 
-0 followed by the correct Fibonacci numbers through the index of n-1. 
+Immediately before the return statement at the end of the function, 
+the array will contain correct Fibonacci numbers from an index of 0 
+through the index of n. This invariant holds for all n > 1. For 
+n = 0 and n = 1 (the base cases) the correct arrays are returned. 
+
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. 
 All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that 
