@@ -30,10 +30,9 @@ your answer to this markdown file.
 
 ##### Answer
 
-Immediately before the return statement at the end of the function, 
-the array will contain correct Fibonacci numbers from an index of 0 
-through the index of n. This invariant holds for all n > 1. For 
-n = 0 and n = 1 (the base cases) the correct arrays are returned. 
+The invariant is an array that contains correct Fibonacci numbers from an index of 0 through
+the index of n - 1. This invariant holds for all n > 1. For 
+n = 0 and n = 1 (the base cases) the correct arrays are just returned.
 
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. 
