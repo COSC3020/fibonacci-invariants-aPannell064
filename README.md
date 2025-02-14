@@ -30,10 +30,12 @@ your answer to this markdown file.
 
 ##### Answer
 
-The invariant is an array that contains correct Fibonacci numbers from an index of 0 through
-the index of n - 1. This invariant holds for all n > 1. For 
-n = 0 and n = 1 (the base cases) the correct arrays are just returned.
-
+The invariant is that, at the recursive call, the array contains the correct 
+fibonacci numbers from an index of 0 through the index of n - 1. This invariant 
+holds for all n > 1. For n = 0 and n = 1 (the base cases) the correct arrays are 
+just returned. This is true because each recursive call gets the array for n-1. The
+value at n-1 is created by adding the two values before it together, which is how
+fibonacci numbers are computed. 
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. 
 All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that 
