@@ -30,13 +30,13 @@ your answer to this markdown file.
 
 ##### Answer
 
-The invariant is that, at the start of the recursive call, the return value 
-will be an array containing the correct fibonacci numbers from an index of 0 
-through the index of n - 1. This is true because each recursive call always 
+The invariant is that the recursive call will always return an array containing
+the correct fibonacci numbers from an index of 0 to one less than the value that
+was passed into the function. This is true because each recursive call always 
 returns an array and computes the next value to be the sum of the previous two 
 values in that array, which is how fibonacci numbers are computed. This invariant 
 holds for all n > 1. For n = 0 and n = 1 (the base cases) the correct arrays are 
-just returned.
+returned explictly. 
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. 
 All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that 
